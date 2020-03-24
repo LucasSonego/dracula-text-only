@@ -1,21 +1,34 @@
 {
-    "name": "dracula-text-only",
-    "displayName": "Dracula text only",
-    "description": "The awesome Dracula text colors with the default vscode editor window colors",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dracula text only",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dracula text only-color-theme.json"
-            }
-        ]
-    }
+  "name": "dracula-text-only",
+  "displayName": "Dracula Text Only",
+  "description": "The awesome Dracula text colors with the default vscode editor window colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasSonego/dracula-text-only.git"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "dracula",
+    "dark",
+    "theme",
+    "color-theme",
+    "dracula text",
+    "text color"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula Text Only",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula text only-color-theme.json"
+      }
+    ]
+  }
 }
