@@ -1,0 +1,21 @@
+{
+    "name": "dracula-text-only",
+    "displayName": "Dracula text only",
+    "description": "The awesome Dracula text colors with the default vscode editor window colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula text only",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dracula text only-color-theme.json"
+            }
+        ]
+    }
+}
