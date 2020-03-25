@@ -1,8 +1,9 @@
 {
   "name": "dracula-text-only",
   "displayName": "Dracula Text Only",
-  "description": "The awesome Dracula text colors with the default vscode editor window colors",
-  "version": "0.0.1",
+  "description": "The awesome Dracula text colors with the default background colors from VSCode",
+  "publisher": "LucasSonego",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.43.0"
   },
